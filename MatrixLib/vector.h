@@ -212,7 +212,7 @@ TVector<T> TVector<T>::operator*(const TVector<T>& _v)
   TVector<T> res(*this);
 
   for (int i = 0; i < res.Size; i++)
-    res.pVector[i] = pVector[i] * v.pVector[i];
+    res.pVector[i] = pVector[i] * _v.pVector[i];
 
   return res;
 }

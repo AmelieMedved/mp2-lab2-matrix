@@ -1,5 +1,5 @@
 #include "matrix.h"
-#include <gtest.h>
+#include "../gtest/gtest.h"
 
 TEST(TMatrix, can_create_matrix_with_positive_size) // создание матрицы размером, значение которого строго больше нуля
 {
