@@ -6,9 +6,9 @@ using namespace std;
 template <class T>
 class TMatrix : public TVector<TVector<T>>
 {
-  //using TVector<TVector<T> >::pVector;
-  //using TVector<TVector<T> >::size;
-  //using TVector<TVector<T> >::start_index;
+  using TVector<TVector<T> >::pVector;
+  using TVector<TVector<T> >::size;
+  using TVector<TVector<T> >::start_index;
 public:
   TMatrix(int _size = 1); // конструктор по умолчанию
   TMatrix(const TMatrix& _m); // конструктор копирования
